@@ -10,6 +10,11 @@ The goal of this lab was to understand how AWS serverless services work together
 
 ---
 
+
+## Architecture Diagram
+
+![AWS Serverless File Processing Pipeline](architecture/aws-serverless-file-pipeline-architecture.svg)
+
 ## Architecture
 
 User uploads file -> S3 bucket -> S3 event notification -> Lambda processor -> DynamoDB metadata table
@@ -193,3 +198,4 @@ Main cleanup targets:
 - Add structured JSON logging
 - Add retry/reprocessing workflow from DLQ
 - Add S3 lifecycle policy for uploaded files
+
