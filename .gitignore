@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.log
+.env
+*.pem
+*.key
+.aws/
+__pycache__/
+*.zip
